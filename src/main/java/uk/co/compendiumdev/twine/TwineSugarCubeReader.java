@@ -29,7 +29,7 @@ public class TwineSugarCubeReader {
 
         Document doc = Jsoup.parse(filename, "UTF-8", "http://example.com/");
 
-        doc.outputSettings().prettyPrint(false);
+        //doc.outputSettings().prettyPrint(false);
 
         Elements elements = doc.getElementsByTag("tw-passagedata");
 
@@ -46,6 +46,7 @@ public class TwineSugarCubeReader {
             passage.setId(element.attributes().get("pid"));
             passage.setName(element.attributes().get("name"));
 
+            String textA = element.ownText();
             String text = "";
             for(TextNode node : element.textNodes()){
                 text = text + node + "\n\n";

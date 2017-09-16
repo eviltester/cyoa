@@ -18,7 +18,7 @@ public class TwineSugarcubeTest {
         String path = "D:\\Users\\Alan\\Documents\\Documents\\Compendium Developments\\cyoa\\twine\\zombies_aaargh\\twine2\\" + "testTwineArchive.html";
 
         // use with twine 2 exported using https://twinery.org/forum/discussion/2279/twine-1-to-twine-2-quick-question
-        path = "D:\\Users\\Alan\\Documents\\Documents\\Compendium Developments\\cyoa\\twine\\zombies_aaargh\\twine2\\" + "zombies_aaargh_twine2export.html";
+        //path = "D:\\Users\\Alan\\Documents\\Documents\\Compendium Developments\\cyoa\\twine\\zombies_aaargh\\twine2\\" + "zombies_aaargh_twine2export.html";
         
         File inputFile = new File(path);
 
